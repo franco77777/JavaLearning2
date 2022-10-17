@@ -27,7 +27,7 @@ public class Cuenta1 {
     public void ingresarDinero(double cantidad){
         this.saldo = this.saldo + cantidad;
     }
-    public void retirarDinero (int cantidad){
+    public void retirarDinero (double cantidad){
         saldo =- cantidad;
     }
 }
